@@ -23,6 +23,7 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     padding: 2%;
+    margin: 10%;
 }
 
 header img{
