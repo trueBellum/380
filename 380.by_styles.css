@@ -15,7 +15,6 @@ header{
     position: fixed;
     top: 0;
     box-shadow: #f7a807 5px 0 50px;
-    /* box-shadow : inset #f7a807 0 5px 10px; */
 }
 
 nav{
@@ -23,7 +22,6 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     padding: 2%;
-    margin: 10%;
 }
 
 header img{
@@ -73,6 +71,9 @@ nav a:hover{
 
 .container_contacts{
     margin: 300px 0 200px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .logo_contacts{
@@ -83,4 +84,14 @@ nav a:hover{
 
 .logo_contacts img{
     width: 25vw;
+}
+
+.social_network{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social_network img{
+    width: vw;
 }
