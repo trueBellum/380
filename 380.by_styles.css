@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Arimo', sans-serif;
 }
 
 header{
@@ -39,7 +40,7 @@ nav a{
     text-decoration: none;
     color: #fffadb;
     font-family: 'Arimo', sans-serif;
-    font-size: 3.2vh;
+    font-size: 1.5vw;
     width: 20%;
     align-self: center;
     align-items: center;
@@ -50,7 +51,7 @@ nav a{
     border-color: #122338;
 }
 
-.container{
+.container_catalog{
     background: linear-gradient(43deg, rgba(0,135,124,1) 0%, rgba(53,33,87,1) 100%);
     width: 100%;
     height: 100vh;
@@ -60,13 +61,18 @@ nav a:hover{
     background-color: #40cfc180;
     border-bottom: #f7a807 4px solid;
     box-shadow: #f7a807 0 5px 20px;
-
 }
 
 .logo{
     padding: .5%;
     border-radius: 50%;
     width: 13vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .container_contacts{
@@ -78,12 +84,12 @@ nav a:hover{
 
 .logo_contacts{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
 .logo_contacts img{
-    width: 25vw;
+    height: 20vh;
 }
 
 .social_network{
@@ -93,5 +99,24 @@ nav a:hover{
 }
 
 .social_network img{
-    width: vw;
+    width: 4vw;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    border: black 3px solid;
+}
+
+.social_network a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    font-size: 4vh;
+    justify-content: baseline;
+    margin-bottom: 10px;
+}
+
+.social_network a span{
+    margin: auto 0 auto 0;
+    padding: 10px;
 }
