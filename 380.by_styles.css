@@ -33,12 +33,10 @@ header{
 .logo{
     display: flex;
     align-items: center;
-    padding: 2vh;
 }
 
 header img{
     height: 8vh;
-    padding: .5%;
 }
 
 .tagline{
@@ -46,7 +44,8 @@ header img{
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    padding: 2vh;
+    margin-right: 1vh;
+
 }
 
 .tagline div{
@@ -54,7 +53,8 @@ header img{
     color: #fffadb;
     font-weight: 500;
     font-family: 'Arimo', sans-serif;
-    font-size: 3vh;
+    font-size: 2.3vh;
+    text-align: end;
 }
 
 nav{
@@ -70,7 +70,7 @@ nav a{
     text-decoration: none;
     color: #fffadb;
     font-family: 'Arimo', sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.6vw;
     transition: 1s;
     padding: 2vh;
 }
