@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: #fffadb;
+    background: linear-gradient(0deg, rgba(0,135,124,1) 0%, rgba(53,33,87,1) 100%);
+    width: 100%;
 }
 
 header{
@@ -22,12 +23,7 @@ header{
     position: fixed;
     top: 0;
     box-shadow: #f7a807 1vh 0 10vh;
-}
-
-.container_logo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    z-index: 10;
 }
 
 .logo{
@@ -37,24 +33,6 @@ header{
 
 header img{
     height: 8vh;
-}
-
-.tagline{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 1vh;
-
-}
-
-.tagline div{
-    display: flex;
-    color: #fffadb;
-    font-weight: 500;
-    font-family: 'Arimo', sans-serif;
-    font-size: 2.3vh;
-    text-align: end;
 }
 
 nav{
@@ -110,16 +88,67 @@ nav a:hover{
 }
 
 .container{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 300px;
+    background-color: #1223388a;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+h1{
+    display: flex;
+    color: #fffadb;
+    text-align: center;
+    justify-content: center;
+    font-size: 36px;
+    padding: 30px;
 }
 
 .container_catalog{
-    background: linear-gradient(0deg, rgba(0,135,124,1) 0%, rgba(53,33,87,1) 100%);
-    width: 100%;
-    height: 100vh;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
 }
 
+.container_catalog a{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 50px 20px;
+    padding: 20px;
+    color: #fffadb;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    border: #f7a807 2px solid;
+    border-radius: 40px;
+    transition: 1s;
+}
 
-.gradient{
+.container_catalog img{
+    height: 300px;
+    border-radius: 40px;
+    transition: 1.5s;
+}
 
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2{
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 36px;
+}
+
+.info span{
+    margin: 0 0 50px 20px;
+    font-size: 24px;
+}
+
+.container_catalog a:hover{
+    background-color: rgba(0, 0, 0, 0.438);
 }
