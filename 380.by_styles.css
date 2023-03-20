@@ -92,11 +92,14 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 h1{
     display: flex;
     color: #fffadb;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
     text-align: center;
     justify-content: center;
     font-size: 36px;
@@ -119,7 +122,7 @@ h1{
     font-family: 'Arimo', sans-serif;
     font-size: 18px;
     text-decoration: none;
-    border: #f7a807 2px solid;
+    border: #fffadb 2px solid;
     border-radius: 40px;
     transition: 1s;
     justify-content: center;
@@ -136,6 +139,8 @@ h2{
     font-size: 26px;
     padding: 20px 0 20px 0;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
 }
 
 span{
@@ -145,4 +150,25 @@ span{
 
 .container_catalog a:hover{
     background-color: rgba(0, 0, 0, 0.438);
+    border-color: #f7a807;
+}
+
+.scroller{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin-top: 60px;
+}
+
+.scroller button{
+    border: none;
+    height: 20vh;
+    padding: 0;
+    background-color: #fffadb7a;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.scroller button:hover{
+    background-color: #0000007a;
 }
