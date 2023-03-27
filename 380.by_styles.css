@@ -66,7 +66,7 @@ nav a:hover{
 }
 
 .contacts img{
-    height: 3vh ;
+    height: 3vh;
     padding: .5%;
     margin-right: .6vw;
 }
@@ -83,8 +83,10 @@ nav a:hover{
 }
 
 .contacts span{
-    min-width: 14vw;
+    display: flex;
+    width: 17vw;
     text-align: start;
+
 }
 
 .container{
@@ -162,11 +164,19 @@ span{
 
 .scroller button{
     border: none;
-    height: 20vh;
-    padding: 0;
+    width: 6vw;
+    height: 6vw;
     background-color: #fffadb7a;
-    border-radius: 20px;
+    border-radius: 35px;
     transition: 1s;
+    justify-content: center;
+    align-content: center;
+}
+
+.scroller img{
+    width: 4vw;
+    display: flex;
+    margin: auto;
 }
 
 .scroller button:hover{
