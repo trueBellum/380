@@ -157,28 +157,26 @@ span{
 
 .scroller{
     display: flex;
-    justify-content: space-between;
-    width: 90vw;
-    margin-top: 60px;
-}
-
-.scroller button{
-    border: none;
-    width: 6vw;
-    height: 6vw;
-    background-color: #fffadb7a;
-    border-radius: 35px;
-    transition: 1s;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
-.scroller img{
-    width: 4vw;
+.partners{
+    display: grid;
+    width: 90vw;
+    grid-template-rows: 13vh 13vh 13vh;
+}
+
+.partners div{
     display: flex;
-    margin: auto;
+    flex-direction: column;
 }
 
-.scroller button:hover{
-    background-color: #0000007a;
+.partners div div{
+    height: 1vh;
+    width: 1vw;
+}
+
+.partners div div img{
+    height: 10vh;
 }
