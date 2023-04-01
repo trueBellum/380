@@ -86,7 +86,8 @@ nav a:hover{
     display: flex;
     width: 17vw;
     text-align: start;
-
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.6vw;
 }
 
 .container{
@@ -94,7 +95,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 80px;
+
 }
 
 h1{
@@ -112,14 +113,15 @@ h1{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     justify-content: space-around;
-    width: 95%;
+    width: 94vw;
     column-gap: 20px;
 }
 
 .container_catalog a{
+    width: 28vw;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 1vw;
     color: #fffadb;
     font-family: 'Arimo', sans-serif;
     font-size: 18px;
@@ -132,12 +134,13 @@ h1{
 }
 
 .container_catalog img{
-    width: 30vw;
+    width: 29vw;
     border-radius: 40px;
     transition: 1.5s;
 }
 
-h2{
+a h2{
+    display: flex;
     font-size: 26px;
     padding: 20px 0 20px 0;
     text-align: center;
@@ -155,28 +158,98 @@ span{
     border-color: #f7a807;
 }
 
-.scroller{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.partners{
-    display: grid;
-    width: 90vw;
-    grid-template-rows: 13vh 13vh 13vh;
-}
-
-.partners div{
+.clients_container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23vh;
+    padding: 1vw;
+    background-color: rgba(0, 0, 0, 0);
+    border: #f7a807 2px solid;
+    border-radius: 40px;
 }
 
-.partners div div{
-    height: 1vh;
-    width: 1vw;
+.clients_container h3{
+    color: #fffadb;
+    margin: 1vh;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 3px;
 }
 
-.partners div div img{
-    height: 10vh;
+.clients{
+    display: grid;
+    width: 93vw;
+    grid-template-columns: 18vw 18vw 18vw 18vw 18vw;
+    gap: .8vw;
+    margin-top: 20px;
+}
+
+.clients div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    border: rgba(0, 0, 0, 0) 2px solid;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8vw;
+}
+
+.clients h4{
+    display: flex;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+.clients img{
+    display: flex;
+    max-height: 10vh;
+    max-width: 16vw;
+    margin: 0 auto 0 auto;
+    padding-bottom: 10px;
+    justify-content: end;
+    align-items: end;
+}
+
+.about_company{
+    margin-top: 20vh;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    background-color: #122338;
+    border-top-right-radius: 100% 10%;
+    border-top-left-radius: 100% 10%;
+    border-top: 1vh #f7a807 solid;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start; 
+    box-shadow: #f7a807 -1vh 0 10vh;
+    padding-top: 10vh;
+}
+
+.about_company div{
+    color: #fffadb;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+}
+
+.about_company h4{
+    color: #fffadb;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.map{
+    display: flex;
+    width: 25vw;
+    height: 15vh;
 }
